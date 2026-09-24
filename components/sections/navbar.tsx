@@ -43,10 +43,10 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <button onClick={() => handleNavClick('#home')} className="group flex items-center gap-2">
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center font-bold text-background text-lg">
-              A
+              Y
             </div>
             <span className="font-bold text-lg tracking-tight group-hover:text-cyan-400 transition-colors">
-              Alex<span className="text-cyan-400">.</span>
+              Yeasin<span className="text-cyan-400">.</span>
             </span>
           </button>
 
