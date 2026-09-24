@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState, useMemo } from 'react';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { supabase, type Project } from '@/lib/supabase/client';
 import { Github, ExternalLink, Star } from 'lucide-react';
@@ -91,9 +92,10 @@ export function Projects() {
 
                   <div className="relative h-48 overflow-hidden">
                     {project.image_url && (
-                      <img
+                      <Image
                         src={project.image_url}
                         alt={project.title}
+                        fill
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />
                     )}
