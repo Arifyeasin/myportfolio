@@ -100,7 +100,7 @@ export function Contact() {
                 <MapPin size={22} className="text-emerald-400" />
               </div>
               <h3 className="font-semibold mb-1">Location</h3>
-              <p className="text-sm text-muted-foreground">San Francisco, California</p>
+              <p className="text-sm text-muted-foreground">Dhaka, Bangladesh</p>
             </div>
 
             <div className="rounded-xl border border-border bg-card/50 p-6">

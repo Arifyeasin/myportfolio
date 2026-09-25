@@ -21,8 +21,8 @@ export function Footer() {
 
           <div className="flex items-center gap-3">
             {[
-              { icon: Github, href: 'https://github.com', label: 'GitHub' },
-              { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+              { icon: Github, href: 'https://github.com/Arifyeasin', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/md-yeasin-arafat-897140399/', label: 'LinkedIn' },
               { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
             ].map(({ icon: Icon, href, label }) => (
               <a
@@ -41,7 +41,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Yeasin. All rights reserved.
+            &copy; {new Date().getFullYear()} Yeasin All rights reserved.
           </p>
         </div>
       </div>

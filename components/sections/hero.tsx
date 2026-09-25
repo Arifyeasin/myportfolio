@@ -132,8 +132,8 @@ export function Hero() {
           className="flex items-center justify-center gap-4"
         >
           {[
-            { icon: Github, href: 'https://github.com', label: 'GitHub' },
-            { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+            { icon: Github, href: 'https://github.com/Arifyeasin', label: 'GitHub' },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/md-yeasin-arafat-897140399/', label: 'LinkedIn' },
             { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
           ].map(({ icon: Icon, href, label }) => (
             <a
